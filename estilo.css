@@ -12,5 +12,42 @@ body{
     background-image: url(./pexels-felix-mittermeier-956999.jpg);
     background-repeat: no-repeat;
     background-position: center center fixed;
-    background-size: cover;
+    background-size: auto;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.container h1{
+    font-size: 40px;
+}
+.container h5{  
+    font-size: 20px;
+}
+#about p{
+    max-width: 400px;
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+#form {
+    padding-top: 20px;
+}
+#form input{
+    max-width: 20%;
+}
+
+#form button{
+    width: 10%;
 }
